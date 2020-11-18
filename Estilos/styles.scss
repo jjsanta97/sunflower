@@ -1,0 +1,33 @@
+/* INICIO VARIABLES*/
+$colorPrincipal: #263266;
+$colorSecundario: white;
+/* FIN VARIABLES*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@import "../Estilos/nav-footer";
+@import "../Estilos/indexStyles";
+@import "../Estilos/serviciosStyles";
+@import "../Estilos/nosotrosStyles";
+@import "../Estilos/proyectosStyles";
+
+/* INICIO CONTACTO.HTML */
+.mapaResponsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  margin-bottom: 20px;
+  position: relative;
+  height: 0;
+}
+
+.mapaResponsive iframe{
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+/* FINAL CONTACTO.HTML */

@@ -1,0 +1,134 @@
+/* -- INICIO SERVICIOS.HTML -- */
+.seccionSoluciones {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+}
+
+.seccionSistemas > * {
+  padding: 0 2em 0 2em;
+}
+
+.seccionTitulo h1{
+  color: $colorPrincipal;
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin: 20px 0px 30px 0px;
+  text-align: center;
+}
+
+.seccionSoluciones {
+  color: $colorPrincipal;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.seccionSoluciones img {
+  width: 260px;
+  height: 260px;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  border: 10px solid $colorPrincipal;
+}
+
+/* -- Inicio Formulario de Servicios -- */
+.preFormulario {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: $colorPrincipal;
+  margin: 0 50px 30px 50px;
+}
+
+.contenedorFormulario > * {
+  padding: 0 5em 0 5em;
+}
+
+.seccionFormulario {
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  color: $colorPrincipal;
+  font-size: 20px;
+}
+
+.seccionFormulario form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 30px;
+  margin: auto;
+}
+
+.seccionFormulario form .block {
+  grid-column: 1 / 3;
+}
+
+.seccionFormulario form p {
+  margin: 0;
+  padding: 0;
+}
+
+.seccionFormulario form button,
+.seccionFormulario form input,
+.seccionFormulario form textarea {
+  width: 100%;
+  padding: 0.7em 0 0.7em 0;
+  border: none;
+  background: none;
+  border-bottom: 3px solid $colorPrincipal;
+  outline: 0;
+  margin-bottom: 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: $colorPrincipal;
+}
+
+.seccionFormulario form button {
+  color: $colorPrincipal;
+  background: none;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  border: 3px solid $colorPrincipal;
+}
+
+.seccionFormulario form button:hover {
+  background-color: $colorPrincipal;
+  color: $colorSecundario;
+  font-size: 20px;
+  border-bottom: 3px solid $colorPrincipal;
+}
+
+@media (max-width: 800px) {
+  .seccionFormulario form {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0px 10px 0px 10px;
+  }
+
+  .contenedorFormulario > * {
+    padding: 0;
+  }
+
+  .seccionFormulario form .block {
+    grid-column: auto;
+  }
+
+  .seccionSoluciones {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .preFormulario h1{
+    font-size: 22px;
+  }
+
+  .seccionTitulo h1{
+    font-size: 40px;
+  }
+}
+/* -- Final Formulario de Servicios -- */
+/* -- FINAL SERVICIOS.HTML -- */

@@ -1,0 +1,108 @@
+/* -- INICIO MENU NAVEGACION PARA TODOS LOS HTML -- */
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar {
+  background: $colorPrincipal;
+}
+
+.menu li {
+  padding: 20px;
+  margin-top: 15px;
+}
+
+.menu ul {
+  margin-right: 60px;
+}
+
+.menu ul li a {
+  font-size: 21px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: $colorSecundario;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.menu li a:hover {
+  background-color: $colorSecundario;
+  color: $colorPrincipal;
+}
+
+/* -- Inicio Header -- */
+header img {
+  height: 90px;
+  width: 227px;
+  margin: 0px 0px 0px 110px;
+}
+
+@media (max-width: 800px) {
+  header img {
+    height: 90px;
+    width: 227px;
+    margin: auto;
+  }
+
+  .menu li {
+    padding: 0px;
+    margin-top: 0px;
+  }
+
+  .menu ul {
+    margin-top: 10px;
+  }
+
+  .menu ul li a {
+    font-size: 25px;
+  }
+}
+/* -- Final Header -- */
+/* -- FINAL MENU NAVEGACION PARA TODOS LOS HTML -- */
+
+/* -- INICIO FOOTER PARA TODOS LOS HTML -- */
+footer {
+  padding: 10px;
+}
+
+footer img {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.piePagina {
+  color: $colorSecundario;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  background: $colorPrincipal;
+}
+
+.redesSociales h4 {
+  margin-bottom: 10px;
+}
+
+.contactoFooter p {
+  margin: 0px;
+}
+
+@media (max-width: 800px) {
+  footer img {
+    height: 30px;
+    width: 30px;
+    margin-right: 0px;
+  }
+
+  .redesSociales h4 {
+    font-size: 15px;
+  }
+
+  .contactoFooter h4 {
+    font-size: 15px;
+  }
+
+  .contactoFooter p {
+    font-size: 15px;
+  }
+}
+/* -- FINAL FOOTER PARA TODOS LOS HTML -- */
