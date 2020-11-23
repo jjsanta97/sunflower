@@ -30,13 +30,14 @@
 }
 
 /* -- Inicio Header -- */
+
 header img {
   height: 90px;
   width: 227px;
   margin: 0px 0px 0px 110px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 480px) {
   header img {
     height: 90px;
     width: 227px;
@@ -86,7 +87,7 @@ footer img {
   margin: 0px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 480px) {
   footer img {
     height: 30px;
     width: 30px;

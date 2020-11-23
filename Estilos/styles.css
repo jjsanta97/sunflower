@@ -44,7 +44,7 @@ header img {
   margin: 0px 0px 0px 110px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 480px) {
   header img {
     height: 90px;
     width: 227px;
@@ -94,7 +94,7 @@ footer img {
   margin: 0px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 480px) {
   footer img {
     height: 30px;
     width: 30px;
@@ -118,6 +118,7 @@ footer img {
   margin: 0px 0px 0px -1px;
   height: 580px;
   background-image: url(../Imagenes/Home/portada_opcion1_filtro.png);
+  background-size: cover;
 }
 
 .seccionPortada__textoPortada--principal {
@@ -142,7 +143,7 @@ footer img {
   font-size: 25px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  margin: 10px 0px 0px 60px;
+  margin: -5px 0px 0px 60px;
 }
 
 .seccionPortada__botonAsesoria--link {
@@ -255,28 +256,28 @@ footer img {
   color: white;
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 480px) {
   .seccionPortada {
     padding: 30px;
     margin: 0px 0px 0px -1px;
     height: 530px;
     background-image: url(../Imagenes/Home/portada_opcion1_filtro.png);
   }
-  .seccionPortada h1 {
+  .seccionPortada__textoPortada--principal {
     font-size: 50px;
     font-family: "Poppins", sans-serif;
     margin: 50px 0px 0px 20px;
     line-height: 1.1;
   }
-  .seccionPortada h2 {
+  .seccionPortada__textoPortada--secundario {
     font-size: 23px;
     margin: 30px 0px 30px 20px;
   }
-  .botonAsesoria {
+  .seccionPortada__botonAsesoria {
     font-size: 20px;
-    margin: 30px 0px 30px 20px;
+    margin: 40px 0px 0px 20px;
   }
-  .botonAsesoria a:hover {
+  .seccionPortada__botonAsesoria--link:hover {
     font-size: 20px;
   }
   .subseccionVentajas {
@@ -298,6 +299,12 @@ footer img {
 
 /* -- FINAL INDEX.HTML -- */
 /* -- INICIO SERVICIOS.HTML -- */
+.jumbotron {
+  background-image: url(../Imagenes/Home/portada_opcion1_filtro.png);
+  background-size: cover;
+  margin-top: 110px;
+}
+
 .seccionSoluciones {
   display: -ms-grid;
   display: grid;
@@ -306,24 +313,30 @@ footer img {
   grid-column-gap: 30px;
 }
 
-.seccionSistemas > * {
-  padding: 0 2em 0 2em;
+.seccionSistemas h1 {
+  color: #263266;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-weight: 600;
+  font-size: 50px;
+  margin-bottom: 30px;
 }
 
 .seccionTitulo h1 {
-  color: #263266;
+  color: white;
   font-size: 60px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  margin: 20px 0px 30px 0px;
-  text-align: center;
+}
+
+.seccionSoluciones h3 {
+  font-size: 22px;
 }
 
 .seccionSoluciones {
   color: #263266;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -342,7 +355,8 @@ footer img {
   font-family: "Poppins", sans-serif;
   text-align: center;
   color: #263266;
-  margin: 0 50px 30px 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .contenedorFormulario > * {
@@ -407,7 +421,11 @@ footer img {
   border-bottom: 3px solid #263266;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 480px) {
+  .seccionSistemas h1 {
+    font-weight: 600;
+    font-size: 28px;
+  }
   .seccionFormulario form {
     display: -ms-grid;
     display: grid;
@@ -428,7 +446,8 @@ footer img {
         grid-template-columns: 1fr;
   }
   .preFormulario h1 {
-    font-size: 22px;
+    font-weight: 600;
+    font-size: 28px;
   }
   .seccionTitulo h1 {
     font-size: 40px;
@@ -438,6 +457,12 @@ footer img {
 /* -- Final Formulario de Servicios -- */
 /* -- FINAL SERVICIOS.HTML -- */
 /* -- INICIO NOSOTROS.HTML -- */
+.jumbotron {
+  background-image: url(../Imagenes/Home/portada_opcion1_filtro.png);
+  background-size: cover;
+  margin-top: 110px;
+}
+
 .portadaNosotros {
   margin-top: 20px;
   margin-bottom: 30px;
@@ -523,20 +548,23 @@ footer img {
   }
   .portadaNosotros h1 {
     font-weight: 600;
-    font-size: 40px;
+    font-size: 28px;
   }
-  .portadaNosotros h2 {
-    margin-top: 20px;
-    font-weight: 500;
-    font-size: 30px;
+  .jumbotron h1 {
+    text-align: center;
   }
 }
 
 /* -- FINAL NOSOTROS.HTML -- */
 /* -- INICIO PROYECTOS.HTML -- */
+.jumbotron {
+  background-image: url(../Imagenes/Home/portada_opcion1_filtro.png);
+  background-size: cover;
+  margin-top: 110px;
+}
+
 .portadaProyectos h1 {
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin: 20px 60px 30px 60px;
   font-family: "Poppins", sans-serif;
   color: #263266;
   font-size: 50px;
@@ -547,7 +575,7 @@ footer img {
 .casosExito {
   color: #263266;
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -559,8 +587,12 @@ footer img {
           justify-content: center;
 }
 
+.proyecto h3 {
+  font-size: 20px;
+}
+
 .proyecto {
-  width: 400px;
+  width: 378px;
   text-align: center;
   margin: auto;
 }
@@ -599,16 +631,20 @@ footer img {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .portadaProyectos h1 {
+    font-size: 28px;
+    margin: 0px 5px 30px 5px;
+  }
 }
 
 /* -- FINAL PROYECTOS.HTML -- */
 /* INICIO CONTACTO.HTML */
 .mapaResponsive {
   overflow: hidden;
-  padding-bottom: 56.25%;
+  padding-bottom: 45%;
   margin-bottom: 20px;
+  margin-top: 110px;
   position: relative;
-  height: 0;
 }
 
 .mapaResponsive iframe {

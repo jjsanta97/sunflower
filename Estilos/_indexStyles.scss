@@ -4,6 +4,7 @@
   margin: 0px 0px 0px -1px;
   height: 580px;
   background-image: url(../Imagenes/Home/portada_opcion1_filtro.png);
+  background-size: cover;
 }
 
 .seccionPortada__textoPortada--principal {
@@ -28,7 +29,7 @@
   font-size: 25px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  margin: 10px 0px 0px 60px;
+  margin: -5px 0px 0px 60px;
 }
 
 .seccionPortada__botonAsesoria--link {
@@ -129,7 +130,7 @@
   color: $colorSecundario;
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 480px) {
   .seccionPortada {
     padding: 30px;
     margin: 0px 0px 0px -1px;
@@ -137,24 +138,24 @@
     background-image: url(../Imagenes/Home/portada_opcion1_filtro.png);
   }
 
-  .seccionPortada h1 {
+  .seccionPortada__textoPortada--principal {
     font-size: 50px;
     font-family: "Poppins", sans-serif;
     margin: 50px 0px 0px 20px;
     line-height: 1.1;
   }
 
-  .seccionPortada h2 {
+  .seccionPortada__textoPortada--secundario {
     font-size: 23px;
     margin: 30px 0px 30px 20px;
   }
 
-  .botonAsesoria {
+  .seccionPortada__botonAsesoria {
     font-size: 20px;
-    margin: 30px 0px 30px 20px;
+    margin: 40px 0px 0px 20px;
   }
 
-  .botonAsesoria a:hover {
+  .seccionPortada__botonAsesoria--link:hover {
     font-size: 20px;
   }
 
