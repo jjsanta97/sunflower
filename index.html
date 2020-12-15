@@ -3,6 +3,7 @@
   <head>
     <title>Home | sunflower</title>
     <meta name="author" content="Juan José Santacruz" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="icon"
       type="image/jpg"
@@ -28,7 +29,7 @@
   <body>
     <!-- INICIO MENU DE NAVEGACION -->
     <header>
-      <nav class="navbar navbar-expand-lg menu">
+      <nav class="navbar fixed-top navbar-expand-lg menu">
         <a class="navbar-brand" href="index.html"
           ><img src="Imagenes/Logotipos/Logotipo sin fondo.png"
         /></a>
@@ -45,9 +46,9 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home</a>
+          <ul class="navbar-nav nav-pills ml-auto">
+            <li class="nav-item pill-1">
+              <a class="nav-link active" href="index.html">Home</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="servicios.html">Servicios</a>
@@ -72,12 +73,12 @@
       <h1
         class="seccionPortada__textoPortada--principal animate__animated animate__fadeInDown"
       >
-        Cambiamos tu estilo <br />de energía
+        Cambiamos tu estilo de energía
       </h1>
       <h2
         class="seccionPortada__textoPortada--secundario animate__animated animate__fadeInDown"
       >
-        Somos expertos en proyectos <br />de Energía Fotovoltaica
+        Somos expertos en proyectos de Energía Fotovoltaica
       </h2>
       <p
         class="seccionPortada__botonAsesoria animate__animated animate__fadeInDown"
@@ -89,64 +90,83 @@
         </strong>
       </p>
     </div>
-    <br />
     <!-- FINAL SECCION PORTADA  -->
 
-    <!-- INICIO SECCION VENTAJAS SUNFLOWER -->
     <div class="seccionVentajas">
       <h1>Genera ahorros en tu factura de electricidad</h1>
       <h2>
-        Contáctanos, somos un equipo de expertos en <br />la industria de la
-        Energía Fotovoltaica
+        Contáctanos, somos un equipo de expertos en la industria de la Energía
+        Fotovoltaica
       </h2>
+    </div>
 
-      <div class="subseccionVentajas">
-        <div class="subseccionVentajas1">
-          <h3>Realizamos la ingeniería</h3>
-          <img src="Imagenes/Home/elementos.jpg" class="rounded-circle" />
-          <p class="subservicio">
+    <!-- INICIO SECCION VENTAJAS SUNFLOWER -->
+    <div class="container">
+      <div class="row">
+        <div class="project col-md-4">
+          <div class="content">
+            <div class="content-overlay"></div>
+            <img class="rounded-circle" src="Imagenes/Home/elementos-min.jpg" alt="Realizamos ingeniería de detalle"/>
+            <div class="content-details">
+              <h3 class="content-title">Realizamos toda la ingeniería</h3>
+            </div>
+          </div>
+          <p>
             Asesoramos y diseñamos la mejor solución, basados en tus principales
             necesidades
           </p>
         </div>
 
-        <div class="subseccionVentajas1">
-          <h3>Nos encargamos de tu sistema</h3>
-          <img src="Imagenes/Home/taladro.jpg" class="rounded-circle" />
-          <p class="subservicio">
+        <div class="project col-md-4">
+          <div class="content">
+            <div class="content-overlay"></div>
+            <img class="rounded-circle" src="Imagenes/Home/taladro-min.jpg" alt="Instalación de sistemas fotovoltaicos" />
+            <div class="content-details">
+              <h3 class="content-title">Nos encargamos del sistema</h3>
+            </div>
+          </div>
+          <p>
             Realizamos el suministro e instalación, puesta en marcha y
             mantenimiento del sistema fotovoltaico
           </p>
         </div>
 
-        <div class="subseccionVentajas1">
-          <h3>Equipos de última tecnología</h3>
-          <img
-            src="Imagenes/Home/inversores_solares.jpg"
-            class="rounded-circle"
-          />
-          <p class="subservicio">
+        <div class="project col-md-4">
+          <div class="content">
+            <div class="content-overlay"></div>
+            <img
+              class="rounded-circle"
+              src="Imagenes/Home/inversores_solares.jpg"
+              alt="Equipos de alta calidad y con garantía"
+            />
+            <div class="content-details fadeIn-bottom">
+              <h3 class="content-title">Equipos de última tecnología</h3>
+            </div>
+          </div>
+          <p>
             Te garantizamos que los equipos utilizados en el sistema
             fotovoltaica son los mejores del mercado
           </p>
         </div>
       </div>
-      <p class="botonServicios">
+    </div>
+
+    <div class="botonServicios">
+      <p>
         <strong>
           <a href="servicios.html">Explora Nuestros Servicios</a>
         </strong>
       </p>
     </div>
     <!-- FINAL SECCION VENTAJAS SUNFLOWER -->
-    <br />
 
     <!-- INICIO PIE DE PAGINA -->
     <footer class="piePagina">
       <div class="redesSociales">
         <h4>Síguenos en:</h4>
-        <a href=""><img src="Imagenes/fb2.png" /></a>
-        <a href=""><img src="Imagenes/insta2.png" /></a>
-        <a href=""><img src="Imagenes/in2.png" /></a>
+        <a href="#"><img src="Imagenes/fb2.png" /></a>
+        <a href="#"><img src="Imagenes/insta2.png" /></a>
+        <a href="#"><img src="Imagenes/in2.png" /></a>
       </div>
       <br />
       <div class="contactoFooter">

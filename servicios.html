@@ -2,6 +2,7 @@
 <html lang="es">
   <head>
     <title>Servicios | sunflower</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="icon"
       type="image/jpg"
@@ -43,12 +44,12 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+          <ul class="navbar-nav nav-pills ml-auto">
+            <li class="nav-item">
               <a class="nav-link" href="index.html">Home</a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="servicios.html">Servicios</a>
+            <li class="nav-item pill-1">
+              <a class="nav-link active" href="servicios.html">Servicios</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="nosotros.html">Nosotros</a>
@@ -67,7 +68,7 @@
 
     <!-- INICIO PORTADA -->
     <div class="jumbotron jumbotron-fluid">
-      <div class="container seccionTitulo">
+      <div class="container">
         <h1 class="display-4 animate__animated animate__fadeInDown">
           Explora nuestras diferentes soluciones
         </h1>
@@ -76,17 +77,27 @@
     <!-- FINAL PORTADA -->
 
     <div class="seccionSistemas">
-      <h1>
+      <h1 class="animate__animated animate__fadeInDown">
         Contamos con diferentes soluciones para cada necesidad de nuestros
         clientes
       </h1>
-      <div class="seccionSoluciones">
-        <div class="sistemaOFF">
-          <h3>Sistemas OFF-GRID</h3>
-          <img
-            src="Imagenes/Soluciones/sistema_off_grid copia.jpg"
-            class="rounded-circle"
-          />
+    </div>  
+
+    <!--INICIO EXPLICACION SERVICIOS-->
+    <div class="container">
+      <div class="row">
+        <div class="project col-md-4">
+          <div class="content">
+            <div class="content-overlay"></div>
+            <img
+              class="rounded-circle"
+              src="Imagenes/Soluciones/sistema_off_grid copia-min.jpg"
+              alt="Instalación de sistemas fotovoltaicos off grid o desconectados de la red"
+            />
+            <div class="content-details">
+              <h3 class="content-title">Sistema OFF-GRID</h3>
+            </div>
+          </div>
           <p>
             Funcionan independiente de la red eléctrica permitiendo alimentar
             consumos que no estén conectados a la misma. Son ideales para zonas
@@ -94,12 +105,18 @@
           </p>
         </div>
 
-        <div class="sistemaON">
-          <h3>Sistemas ON-GRID</h3>
-          <img
-            src="Imagenes/Soluciones/sistema_on_grid copia.jpg"
-            class="rounded-circle"
-          />
+        <div class="project col-md-4">
+          <div class="content">
+            <div class="content-overlay"></div>
+            <img
+              class="rounded-circle"
+              src="Imagenes/Soluciones/sistema_on_grid copia-min.jpg"
+              alt="Instalación de sistemas fotovoltaicos on grid o conectados a la red"
+            />
+            <div class="content-details">
+              <h3 class="content-title">Sistema ON-GRID</h3>
+            </div>
+          </div>
           <p>
             Se encuentra conectado a la red eléctrica local. Su ventaja radica
             en que los excedentes de energía que produce el sistema son
@@ -107,12 +124,18 @@
           </p>
         </div>
 
-        <div class="sistemaCero">
-          <h3>Sistemas Inyección Cero</h3>
-          <img
-            src="Imagenes/Soluciones/sistema_inyeccion_cero copia.jpg"
-            class="rounded-circle"
-          />
+        <div class="project col-md-4">
+          <div class="content">
+            <div class="content-overlay"></div>
+            <img
+              class="rounded-circle"
+              src="Imagenes/Soluciones/sistema_inyeccion_cero copia-min.jpg"
+              alt="Instalación de sistemas fotovoltaicos con inyección cero"
+            />
+            <div class="content-details fadeIn-bottom">
+              <h3 class="content-title">Sistema Inyección Cero</h3>
+            </div>
+          </div>
           <p>
             Esta conectado a la red eléctrica, sin embargo, este no inyecta los
             excedentes de energía a la red eléctrica. Tiene como objetivo
@@ -121,12 +144,14 @@
         </div>
       </div>
     </div>
+    <!--INICIO EXPLICACION SERVICIOS-->
 
-    <div class="preFormulario">
+    <!-- INICIO FORMULARIO DE CONTACTO-->
+    <div class="formularioServicios">
       <h1>¿Estas interesado en alguna de nuestras soluciones?</h1>
       <h1>
         No dudes en contactarnos, tenemos un equipo de profesionales para
-        resolver tus dudas.
+        resolver tus dudas
       </h1>
     </div>
 
@@ -159,6 +184,7 @@
         </form>
       </div>
     </div>
+    <!-- FINAL FORMULARIO DE CONTACTO-->
 
     <!-- INICIO PIE DE PAGINA -->
     <footer class="piePagina">

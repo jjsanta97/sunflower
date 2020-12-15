@@ -1,4 +1,9 @@
 /* -- INICIO MENU NAVEGACION PARA TODOS LOS HTML -- */
+.nav-pills .pill-1 .nav-link {
+  background-color: $colorSecundario;
+  color: $colorPrincipal;
+}
+
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
@@ -30,7 +35,6 @@
 }
 
 /* -- Inicio Header -- */
-
 header img {
   height: 90px;
   width: 227px;
@@ -87,11 +91,18 @@ footer img {
   margin: 0px;
 }
 
-@media (max-width: 480px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  header img {
+    height: 80px;
+    width: 200px;
+    margin: 0px 0px 0px 16px;
+  }
+
   footer img {
     height: 30px;
     width: 30px;
     margin-right: 0px;
+    margin-bottom: 3px;
   }
 
   .redesSociales h4 {
@@ -103,7 +114,21 @@ footer img {
   }
 
   .contactoFooter p {
-    font-size: 15px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  header img {
+    height: 90px;
+    width: 227px;
+    margin: 0px 0px 0px 20px;
+  }
+
+  .menu li {
+    padding: 7px;
+    margin-top: 15px;
+    text-align: center;
   }
 }
 /* -- FINAL FOOTER PARA TODOS LOS HTML -- */

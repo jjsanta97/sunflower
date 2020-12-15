@@ -1,154 +1,32 @@
 /* -- INICIO SERVICIOS.HTML -- */
-.jumbotron {
-  background-image: url(../Imagenes/Home/portada_opcion1_filtro.png);
-  background-size: cover;
-  margin-top: 110px;
-}
-
-.seccionSoluciones {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 30px;
-}
-
 .seccionSistemas h1 {
   color: $colorPrincipal;
   font-family: "Poppins", sans-serif;
   text-align: center;
   font-weight: 600;
   font-size: 50px;
-  margin-bottom: 30px;
+  margin: 0px 50px 30px 50px;
 }
 
-.seccionTitulo h1 {
-  color: $colorSecundario;
-  font-size: 60px;
+.formularioServicios h1 {
+  color: $colorPrincipal;
   font-family: "Poppins", sans-serif;
+  text-align: center;
   font-weight: 600;
+  font-size: 40px;
+  margin: 0px 50px 30px 50px;
 }
 
-.seccionSoluciones h3{
-  font-size: 22px;
-}
-
-.seccionSoluciones {
-  color: $colorPrincipal;
-  font-size: 18px;
-  font-family: "Poppins", sans-serif;
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-
-.seccionSoluciones img {
-  width: 260px;
-  height: 260px;
-  display: block;
-  margin: auto;
-  margin-bottom: 10px;
-  border: 10px solid $colorPrincipal;
-}
-
-/* -- Inicio Formulario de Servicios -- */
-.preFormulario {
-  font-family: "Poppins", sans-serif;
-  text-align: center;
-  color: $colorPrincipal;
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
-
-.contenedorFormulario > * {
-  padding: 0 5em 0 5em;
-}
-
-.seccionFormulario {
-  font-family: "Poppins", sans-serif;
-  text-align: left;
-  color: $colorPrincipal;
-  font-size: 20px;
-}
-
-.seccionFormulario form {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 30px;
-  margin: auto;
-}
-
-.seccionFormulario form .block {
-  grid-column: 1 / 3;
-}
-
-.seccionFormulario form p {
-  margin: 0;
-  padding: 0;
-}
-
-.seccionFormulario form button,
-.seccionFormulario form input,
-.seccionFormulario form textarea {
-  width: 100%;
-  padding: 0.7em 0 0.7em 0;
-  border: none;
-  background: none;
-  border-bottom: 3px solid $colorPrincipal;
-  outline: 0;
-  margin-bottom: 30px;
-  font-family: "Poppins", sans-serif;
-  font-size: 20px;
-  color: $colorPrincipal;
-}
-
-.seccionFormulario form button {
-  color: $colorPrincipal;
-  background: none;
-  font-size: 20px;
-  font-family: "Poppins", sans-serif;
-  font-size: 20px;
-  border: 3px solid $colorPrincipal;
-}
-
-.seccionFormulario form button:hover {
-  background-color: $colorPrincipal;
-  color: $colorSecundario;
-  font-size: 20px;
-  border-bottom: 3px solid $colorPrincipal;
-}
-
-@media (max-width: 480px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .seccionSistemas h1 {
     font-weight: 600;
-    font-size: 28px;
+    font-size: 25px;
+    margin: 0px 10px 30px 10px;
   }
 
-  .seccionFormulario form {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 0px 10px 0px 10px;
-  }
-
-  .contenedorFormulario > * {
-    padding: 0;
-  }
-
-  .seccionFormulario form .block {
-    grid-column: auto;
-  }
-
-  .seccionSoluciones {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
-  .preFormulario h1 {
-    font-weight: 600;
-    font-size: 28px;
-  }
-
-  .seccionTitulo h1 {
-    font-size: 40px;
+  .formularioServicios h1 {
+    font-size: 30px;
+    margin: 0px 0px 20px 0px;
   }
 }
-/* -- Final Formulario de Servicios -- */
 /* -- FINAL SERVICIOS.HTML -- */

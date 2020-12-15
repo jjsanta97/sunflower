@@ -2,6 +2,7 @@
 <html lang="es">
   <head>
     <title>Nosotros | sunflower</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="icon"
       type="image/jpg"
@@ -21,6 +22,10 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
 
@@ -44,15 +49,15 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+          <ul class="navbar-nav nav-pills ml-auto">
+            <li class="nav-item">
               <a class="nav-link" href="index.html">Home</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="servicios.html">Servicios</a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            <li class="nav-item pill-1">
+              <a class="nav-link active" href="nosotros.html">Nosotros</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="proyectos.html">Proyectos</a>
@@ -68,7 +73,7 @@
 
     <!-- INICIO PORTADA -->
     <div class="jumbotron jumbotron-fluid">
-      <div class="container seccionTitulo">
+      <div class="container">
         <h1 class="display-4 animate__animated animate__fadeInDown">
           Conoce a nuestro equipo de trabajo
         </h1>
@@ -83,25 +88,76 @@
       </h1>
     </div>
 
-    <div class="equipoTrabajo">
-      <div class="equipo">
-        <img src="Imagenes/Nosotros/Hombre1.jpg" class="rounded-circle" />
-        <h3><strong>Camilo Villegas</strong></h3>
-        <p>CEO</p>
-      </div>
+    <!-- INICIO EQUIPO DE TRABAJO -->
+    <div class="team-boxed">
+      <div class="container">
+        <div class="row people">
+          <div class="col-md-6 col-lg-4 item">
+            <div class="box">
+              <img
+                class="rounded-circle"
+                src="Imagenes/Nosotros/Hombre1-min.jpg"
+                alt="Camilo Villegas - CEO"
+              />
+              <h3 class="name">Camilo Villegas</h3>
+              <p class="title">CEO</p>
+              <p class="description">
+                Ingeniero eléctrico de la universidad del Rosario con especialización en 
+                energía solar fotovoltaica
+              </p>
+              <div class="social">
+                <a href="#"><i class="fa fa-facebook-official"  ></i></a
+                ><a href="#"><i class="fa fa-twitter"></i></a
+                ><a href="#"><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
 
-      <div class="equipo">
-        <img src="Imagenes/Nosotros/Hombre_2.jpg" class="rounded-circle" />
-        <h3><strong>Sebastián Montoya</strong></h3>
-        <p>Director de Proyectos</p>
-      </div>
+          <div class="col-md-6 col-lg-4 item">
+            <div class="box">
+              <img
+                class="rounded-circle"
+                src="Imagenes/Nosotros/Hombre_2-min.jpg"
+                alt="Sebastián Villota - Director de Proyectos"
+              />
+              <h3 class="name">Sebastián Villota</h3>
+              <p class="title">Director de Proyectos</p>
+              <p class="description">
+                Ingeniero mecánico de la universidad EAFIT, cuenta con 7 años de experiencia
+                en proyectos solares
+              </p>
+              <div class="social">
+                <a href="#"><i class="fa fa-facebook-official"></i></a
+                ><a href="#"><i class="fa fa-twitter"></i></a
+                ><a href="#"><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
 
-      <div class="equipo">
-        <img src="Imagenes/Nosotros/Mujer_.jpg" class="rounded-circle" />
-        <h3><strong>Mónica Vargas</strong></h3>
-        <p>Directora Comercial</p>
+          <div class="col-md-6 col-lg-4 item">
+            <div class="box">
+              <img
+                class="rounded-circle"
+                src="Imagenes/Nosotros/Mujer_-min.jpg"
+                alt="Mónica Vargas - Directora Comercial"
+              />
+              <h3 class="name">Mónica Vargas</h3>
+              <p class="title">Directora Comercial</p>
+              <p class="description">
+                Administradora de empresas, especialista en marketing y magister en administración
+                y gestión de proyectos
+              </p>
+              <div class="social">
+                <a href="#"><i class="fa fa-facebook-official"></i></a
+                ><a href="#"><i class="fa fa-twitter"></i></a
+                ><a href="#"><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+    <!-- FINAL EQUIPO DE TRABAJO -->
 
     <!-- INICIO PIE DE PAGINA -->
     <footer class="piePagina">
